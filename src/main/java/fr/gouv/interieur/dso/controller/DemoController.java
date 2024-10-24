@@ -23,7 +23,7 @@ public class DemoController {
     @GetMapping("/")
     public ResponseDto helloWorld() {
         ResponseDto responseDto = new ResponseDto();
-        responseDto.setMessage("hello world !");
+        responseDto.setMessage("hello world ! Allo ici Jean Ribes");
         responseDto.setStatus("ok");
         return responseDto;
     }
